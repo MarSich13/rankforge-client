@@ -1,0 +1,11 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  tags:
+    - shared
+  only:
+    - main
+  script:
+    - docker compose -f docker-compose.vps.yml -p rankforge-client up --build --remove-orphans --detach
