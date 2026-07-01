@@ -6,6 +6,10 @@ RankForge Client is a responsive React frontend for a coaching and competitive-r
 
 ![RankForge login screen](docs/rankforge-login.png)
 
+## Live deployment
+
+The deployed application runs on a TalTech university virtual machine. Access to the live instance and its API requires an active connection to the TalTech VPN. The client can still be built locally, but authenticated features require access to the university-hosted backend or another compatible RankForge API.
+
 ## Highlights
 
 - Student, coach, and administrator workflows
@@ -70,3 +74,7 @@ src/
 ## Validation
 
 Every push and pull request is checked with a clean dependency install, production build, and npm security audit through GitHub Actions.
+
+## Commit attribution
+
+Some commits are attributed to [Artick4](https://github.com/Artick4) because the original university GitLab history uses my TalTech email address, which is linked to that GitHub account. [Artick4](https://github.com/Artick4) and [MarSich13](https://github.com/MarSich13) are both my accounts.
