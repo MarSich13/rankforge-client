@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        VITE_API_URL: ${VITE_API_URL:-https://mabuha-phase3-api.proxy.itcollege.ee}
+        VITE_API_URL: ${VITE_API_URL:-http://127.0.0.1:5099}
     restart: unless-stopped
     ports:
       - "${RANKFORGE_CLIENT_PORT:-8090}:80"
